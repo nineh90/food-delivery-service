@@ -1,0 +1,165 @@
+[
+    {
+        "restaurantName" : "Pizzeria",
+        "restaurantimg" : "./assets/img/pizza.png",
+        "deliveryTime" : "30 - 45",
+        "deliveryCosts" : 1,
+        "minimumOrderValue" : 15,
+        "menuCard" : [
+            {
+               "starter" : [
+                {
+                    "name" : "Cesaer Salad", "price" : 6.50
+                },
+                {
+                    "name" : "Gemischter Salad", "price" : 6.50
+                }
+               ] 
+            },
+            {
+                "mainCourse" :[
+                 {
+                    "name" : "Pizza 1", "price" : 6.50
+                 }
+                ]
+            },
+            {
+                "dessert" : [
+                    {
+                        "name" : "dessert 1", "price" : 6.50
+                    }
+                ]
+            },
+            {
+                "drinks" : [
+                    {
+                        "name" : "dink 1", "price" : 3.50
+                    }
+                ]
+            }     
+                        
+        ]
+    },{
+        "restaurantName" : "Sushi",
+        "restaurantimg" : "./assets/img/sushi.png",
+        "deliveryTime" : "30 - 45",
+        "deliveryCosts" : 0,
+        "minimumOrderValue" : 20,
+        "menuCard" : [
+            {
+               "starter" : [
+                {
+                    "name" : "Cesaer Salad", "price" : 6.50
+                },
+                {
+                    "name" : "Gemischter Salad", "price" : 6.50
+                }
+               ] 
+            },
+            {
+                "mainCourse" :[
+                {
+                    "name" : "sushi 1", "price" : 6.50
+                 }
+                ]
+            },
+            {
+                "dessert" : [
+                    {
+                        "name" : "nachtisch 1", "price" : 6.50
+                    }
+                ]
+            },
+            {
+                "drinks" : [
+                    {
+                        "name" : "getränk 1", "price" : 3.50
+                    }
+                ]
+            }     
+                        
+        ]
+    },
+    {
+        "restaurantName" : "Burger",
+        "restaurantimg" : "./assets/img/burger.png",
+        "deliveryTime" : "45",
+        "deliveryCosts" : 2,
+        "minimumOrderValue" : 15,
+        "menuCard" : [
+            {
+               "starter" : [
+                {
+                    "name" : "Salad chicken", "price" : 6.50
+                },
+                {
+                    "name" : "salad burger", "price" : 6.50
+                }
+               ] 
+            },
+            {
+                "mainCourse" :[
+                {
+                    "name" : "Burger 1", "price" : 6.50
+                 }
+                ]
+            },
+            {
+                "dessert" : [
+                    {
+                        "name" : "eis 1", "price" : 6.50
+                    }
+                ]
+            },
+            {
+                "drinks" : [
+                    {
+                        "name" : "cola 1", "price" : 3.50
+                    }
+                ]
+            }     
+                        
+        ]
+    },
+    {
+        "restaurantName" : "Kuchen",
+        "restaurantimg" : "./assets/img/cake.png.jpg",
+        "deliveryTime" : "60-90",
+        "deliveryCosts" : 5,
+        "minimumOrderValue" : 25,
+        "menuCard" : [
+            {
+               "starter" : [
+                {
+                    "name" : "Salad chicken", "price" : 6.50
+                },
+                {
+                    "name" : "salad burger", "price" : 6.50
+                }
+               ] 
+            },
+            {
+                "mainCourse" :[
+                {
+                    "name" : "Burger 1", "price" : 6.50
+                 }
+                ]
+            },
+            {
+                "dessert" : [
+                    {
+                        "name" : "eis 1", "price" : 6.50
+                    }
+                ]
+            },
+            {
+                "drinks" : [
+                    {
+                        "name" : "cola 1", "price" : 3.50
+                    }
+                ]
+            }     
+                        
+        ]
+    }
+]
