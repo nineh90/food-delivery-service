@@ -1,6 +1,6 @@
 [
     {
-        "restaurantName" : "Pizzeria",
+        "restaurantName" : "Pizza LeckerSchmecker",
         "restaurantimg" : "./assets/img/pizza.png",
         "deliveryTime" : "30 - 45",
         "deliveryCosts" : 1,
@@ -9,38 +9,44 @@
             {
                "starter" : [
                 {
-                    "name" : "Cesaer Salad", "price" : 6.50
+                    "name" : "PIZZA Salad", "price" : 6.50
                 },
                 {
-                    "name" : "Gemischter Salad", "price" : 6.50
+                    "name" : "PIZZA 2 Salad", "price" : 4.50
+                },
+                {
+                    "name" : "PIZZA 3 Salad", "price" : 6.50
                 }
                ] 
             },
             {
                 "mainCourse" :[
                  {
-                    "name" : "Pizza 1", "price" : 6.50
+                    "name" : "Pizza 1", "price" : 26.50
+                 },
+                 {
+                    "name" : "Pizza 2", "price" : 16.50
                  }
                 ]
             },
             {
                 "dessert" : [
                     {
-                        "name" : "dessert 1", "price" : 6.50
+                        "name" : "Pizza dessert 1", "price" : 6.50
                     }
                 ]
             },
             {
                 "drinks" : [
                     {
-                        "name" : "dink 1", "price" : 3.50
+                        "name" : "Pizza drink 1", "price" : 3.50
                     }
                 ]
             }     
                         
         ]
     },{
-        "restaurantName" : "Sushi",
+        "restaurantName" : "Sushi Town",
         "restaurantimg" : "./assets/img/sushi.png",
         "deliveryTime" : "30 - 45",
         "deliveryCosts" : 0,
@@ -48,32 +54,32 @@
         "menuCard" : [
             {
                "starter" : [
-                {
-                    "name" : "Cesaer Salad", "price" : 6.50
-                },
-                {
-                    "name" : "Gemischter Salad", "price" : 6.50
-                }
+                    {
+                        "name" : "sushi Salad", "price" : 6.50
+                    },
+                    {
+                        "name" : "sushi Salad 2", "price" : 6.50
+                    }
                ] 
             },
             {
                 "mainCourse" :[
-                {
-                    "name" : "sushi 1", "price" : 6.50
-                 }
+                    {
+                        "name" : "sushi haupt 1", "price" : 6.50
+                    }
                 ]
             },
             {
                 "dessert" : [
                     {
-                        "name" : "nachtisch 1", "price" : 6.50
+                        "name" : "nachtisch sushi 1", "price" : 6.50
                     }
                 ]
             },
             {
                 "drinks" : [
                     {
-                        "name" : "getränk 1", "price" : 3.50
+                        "name" : "getränk sushi 1", "price" : 3.50
                     }
                 ]
             }     
@@ -81,27 +87,68 @@
         ]
     },
     {
-        "restaurantName" : "Burger",
+        "restaurantName" : "Burger World",
         "restaurantimg" : "./assets/img/burger.png",
-        "deliveryTime" : "45",
+        "deliveryTime" : "45 - 60",
         "deliveryCosts" : 2,
         "minimumOrderValue" : 15,
         "menuCard" : [
             {
                "starter" : [
-                {
-                    "name" : "Salad chicken", "price" : 6.50
-                },
-                {
-                    "name" : "salad burger", "price" : 6.50
-                }
+                    {
+                        "name" : "burger chicken", "price" : 6.50
+                    },
+                    {
+                        "name" : "salad burger", "price" : 6.50
+                    }
                ] 
             },
             {
                 "mainCourse" :[
-                {
-                    "name" : "Burger 1", "price" : 6.50
-                 }
+                    {
+                        "name" : "Burger 1", "price" : 6.50
+                    }
+                ]
+            },
+            {
+                "dessert" : [
+                    {
+                        "name" : "eis  burger 1", "price" : 6.50
+                    }
+                ]
+            },
+            {
+                "drinks" : [
+                    {
+                        "name" : "cola burger 1", "price" : 3.50
+                    }
+                ]
+            }     
+                        
+        ]
+    },
+    {
+        "restaurantName" : "Cake Factory",
+        "restaurantimg" : "./assets/img/restaurant.png",
+        "deliveryTime" : "60 - 90",
+        "deliveryCosts" : 5,
+        "minimumOrderValue" : 25,
+        "menuCard" : [
+            {
+               "starter" : [
+                    {
+                        "name" : "Salad chicken", "price" : 6.50
+                    },
+                    {
+                        "name" : "salad burger", "price" : 6.50
+                    }
+               ] 
+            },
+            {
+                "mainCourse" :[
+                    {
+                        "name" : "Burger 1", "price" : 6.50
+                    }
                 ]
             },
             {
@@ -122,40 +169,81 @@
         ]
     },
     {
-        "restaurantName" : "Kuchen",
-        "restaurantimg" : "./assets/img/cake.png.jpg",
-        "deliveryTime" : "60-90",
-        "deliveryCosts" : 5,
-        "minimumOrderValue" : 25,
+        "restaurantName" : "Steak House",
+        "restaurantimg" : "./assets/img/steak.png",
+        "deliveryTime" : "60 - 90",
+        "deliveryCosts" : 0,
+        "minimumOrderValue" : 50,
         "menuCard" : [
             {
                "starter" : [
-                {
-                    "name" : "Salad chicken", "price" : 6.50
-                },
-                {
-                    "name" : "salad burger", "price" : 6.50
-                }
+                    {
+                        "name" : "Salad steak", "price" : 6.50
+                    },
+                    {
+                        "name" : "salad burger", "price" : 6.50
+                    }
                ] 
             },
             {
                 "mainCourse" :[
-                {
-                    "name" : "Burger 1", "price" : 6.50
-                 }
+                    {
+                        "name" : "steak 1", "price" : 6.50
+                    }
                 ]
             },
             {
                 "dessert" : [
                     {
-                        "name" : "eis 1", "price" : 6.50
+                        "name" : "dessert 1 steak", "price" : 6.50
                     }
                 ]
             },
             {
                 "drinks" : [
                     {
-                        "name" : "cola 1", "price" : 3.50
+                        "name" : "cola 1steak", "price" : 3.50
+                    }
+                ]
+            }     
+                        
+        ]
+    },
+    {
+        "restaurantName" : "Home of Pasta",
+        "restaurantimg" : "./assets/img/pasta.png",
+        "deliveryTime" : "30 - 60",
+        "deliveryCosts" : 3,
+        "minimumOrderValue" : 15,
+        "menuCard" : [
+            {
+               "starter" : [
+                    {
+                        "name" : "Salad steak", "price" : 6.50
+                    },
+                    {
+                        "name" : "salad burger", "price" : 6.50
+                    }
+               ] 
+            },
+            {
+                "mainCourse" :[
+                    {
+                        "name" : "steak 1", "price" : 6.50
+                    }
+                ]
+            },
+            {
+                "dessert" : [
+                    {
+                        "name" : "dessert 1 steak", "price" : 6.50
+                    }
+                ]
+            },
+            {
+                "drinks" : [
+                    {
+                        "name" : "cola 1steak", "price" : 3.50
                     }
                 ]
             }     

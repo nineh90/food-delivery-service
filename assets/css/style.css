@@ -8,10 +8,68 @@
 }
 
 
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(15px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(15px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+
 
 body{
     margin: 0;
     font-family: 'Roboto Mono';
+    background: linear-gradient(to bottom, rgb(235, 162, 88) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.txt-border{
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #dda434, 2px -2px 0 #c39d23, -2px 2px 0 #b5a940, -2px -2px 0 #b5b540, 2px 0px 0 #b5ad40, 0px 2px 0 #b59540, -2px 0px 0 #b5ad40, 0px -2px 0 #b5ad40;
 }
 
 .navbar{
@@ -20,11 +78,49 @@ body{
     left: 0;
     right: 0;
     height: 70px;
-    background: linear-gradient(to bottom, rgb(235, 162, 88) 0%, rgba(0, 0, 0, 0) 100%);
+    /* background: linear-gradient(to bottom, rgb(235, 162, 88) 0%, rgba(0, 0, 0, 0) 100%); */
+    background-color: #333333d4;
+    z-index: 1;
 }
 
 .navbar span{
     font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 0 #000000;
+    font-size: 1.2rem;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.margin-top-10{
+    margin-top: 150px;
+}
+
+.navbar-menu-card{
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    padding: 20px;
+    background: linear-gradient(to top, rgb(204, 200, 198) 0%, rgba(0, 0, 0, 0) 100%);
+    
+}
+
+.navbar-menu-card a{
+    text-decoration: none;
+    padding: 8px;
+    border: solid 2px white;
+    border-radius: 24px;
+    color: white;
+    background: linear-gradient(to top, rgb(110, 101, 91) 0%, rgba(0, 0, 0, 0) 100%);
+    font-size: 1rem;
+}
+
+.navbar-menu-card a:hover{
+    background-color: rgb(0 0 0 / 5%);
 }
 
 .logo-img{
@@ -59,7 +155,6 @@ body{
 
 .header h1 {
     font-size: 3.5rem;
-    margin-top: 80px;
 }
 
 .header p{
@@ -89,14 +184,14 @@ body{
 
 }
 
-.location-search-container button{
+.location-search-container a{
     border-radius: 44px;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 8px;
     background-color: black;
     color: white;
-    cursor: pointer;
+    text-decoration: none;
 
 }
 
@@ -106,6 +201,11 @@ body{
     object-fit: contain;
     margin-left: 12px;
 
+}
+
+.index-content-container{
+    background-color: white;
+    color: black;
 }
 
 .index-content-container h2{
@@ -119,11 +219,20 @@ body{
 
 .take-away-img{
     width: 65px;
+    filter: invert(45%) sepia(97%) saturate(1588%) hue-rotate(3deg) brightness(108%) contrast(102%);
 
 }
 
 .location-content-img{
     width: 45px;
+    filter: invert(45%) sepia(97%) saturate(1588%) hue-rotate(3deg) brightness(108%) contrast(102%);
+}
+
+.location-header-img{
+    width: 25px;
+    margin-right: 24px;
+    filter: invert(14%) sepia(43%) saturate(0%) hue-rotate(197deg) brightness(97%) contrast(99%);
+    /* filter: invert(45%) sepia(97%) saturate(1588%) hue-rotate(3deg) brightness(108%) contrast(102%); */
 }
 
 .location-content-img img{
@@ -133,7 +242,7 @@ body{
 
 .footer{
     min-height: 220px;
-    background-color: #262626;;
+    background-color: #262626;
     color: white;
 }
 
@@ -149,7 +258,7 @@ body{
 
 .restaurant-card-img{
     width: 100%;
-    height: 150px;
+    height: 12rem;
     object-fit: cover;
 }
 
@@ -157,23 +266,214 @@ body{
     border: solid 1px lightgray;
     border-radius: 24px;
     padding-bottom: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     overflow: hidden;
-
+    background-color: #edaa66;
+    color: white;
+    -webkit-box-shadow: 8px 7px 7px 8px rgba(0,0,0,0.57); 
+    box-shadow: 8px 7px 7px 8px rgba(0,0,0,0.57);
 }
 
-.restaurant-card div{
+
+/* 
+ .restaurant-card div{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 .restaurant-card h3{
-    text-align: center;
-    font-size: 1.75rem;
-}
+    padding-left: 12px;
+    font-size: 3rem;
+    font-family: "Brush Script MT";
+    text-shadow: 4px 4px 6px black;
+}    
+
+
+
 
 .restaurant-image-container img{
     width: 23px;
-    margin-right: 12px;
+    margin-right: 6px;
 }
+
+.current-rest-img{
+    height: 8rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.add-to-basket-img{
+    width: 25px;
+    padding-right: 24px;
+    padding-top: 16px;
+}
+
+.menu-item-container{
+    border: solid 1px lightgray;
+    border-radius: 24px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    padding-bottom: 16px;
+    overflow: hidden;
+}
+
+.menu-item-container:hover{
+    background-color: rgba(0,0,0,5%);
+    border-color: grey;
+
+}
+
+.basket-img{
+    width: 75px;
+}
+
+.shopping-basket-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate(100%, 0px);
+    width: 50%;
+    background-color: white;
+    -webkit-box-shadow: -4px -3px 11px 4px #ff8000; 
+    box-shadow: -4px -3px 11px 4px #ff8000;
+    z-index: 2;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,65%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.padding-left-24px{
+    padding-left: 24px;
+
+}
+
+.menu-arrow{
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    width: 25px;
+    filter: invert(1);
+    /* filter: invert(45%) sepia(97%) saturate(1588%) hue-rotate(3deg) brightness(108%) contrast(102%); */
+   
+}
+
+.animation{
+    animation: myAnim 3s ease 0s 1000 normal forwards;
+    -webkit-box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgb(0 0 0 / 0%);
+    box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgb(0 0 0 / 0%);
+    padding: 9px;
+    border-radius: 100%;
+}
+
+.darkModeActive{
+    background-color: #3a3a3a; 
+    color: #ddc9af;
+}
+
+.color-sand{
+    filter: invert(100%) sepia(58%) saturate(1014%) hue-rotate(307deg) brightness(94%) contrast(84%); 
+}
+
+
+
+.basketCart{
+    border: 1px solid rgb(222, 215, 215);
+    border-radius: 14px;
+    background-color: rgba(0,0,0,5%);
+    padding: 24px;
+    max-width: 90%;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+#basketContent{
+    max-height: 50%;
+    width: 80%;
+    overflow-y: scroll;
+    border: solid lightgrey;
+    padding: 24px;
+}
+
+#payButton{
+    padding: 8px;
+    background-color: #ff8000;
+    color: white;
+    font-weight: bold;
+    border-radius: 24px;
+    font-size: 1.5rem;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: none;
+}
+
+#payMent{
+    background: #ff8000;
+    margin-top: 24px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+    border-radius: 12px;
+
+}
+
+.totalsum-container{
+    border-top: solid white;
+    padding-top: 14px;
+    margin-top: 14px;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #000000;
+  }
+  ::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #666666;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #333333;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }

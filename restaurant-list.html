@@ -8,19 +8,26 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <script src="./assets/javascript/main.js"></script>
+    <script src="./assets/javascript/html.js"></script>
+    <script src="./assets/javascript/shopping-basket.js"></script>
     <title>Fake Delivery</title>
 </head>
-<body onload="getRestaurantData()">
+<body>
     <!--Navbar Index Top-->
     <div w3-include-html="./assets/template/navbar-top-index.html"></div>
     <!--Navbar Restaurant List -->
-    <!-- <div w3-include-html="./assets/template/navbar-restaurant-list.html"></div> -->
+    <div w3-include-html="./assets/template/navbar-restaurant-list.html"></div>
     <!--Restaurant List-->
-    <div w3-include-html="./assets/template/restaurant-list.html"></div>
+    <div>
+        <div w3-include-html="./assets/template/restaurant-list.html"></div>
+        <!--Shopping Basket-->
+        <div w3-include-html="./assets/template/shopping-basket.html"></div>
+    </div> 
     <!--Footer-->
     <div w3-include-html="./assets/template/footer.html"></div>
-
-
-    <script>includeHTML();</script>
+    <script>
+        includeHTML(); 
+        getRestaurantData();
+    </script>
 </body>
 </html>
