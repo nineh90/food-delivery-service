@@ -201,37 +201,87 @@
         "menuCard" : [
             {
                "starter" : [
-                    {
-                        "id": 28,
-                        "name" : "burger chicken", "price" : 6.50
-                    },
-                    {
-                        "id": 29,
-                        "name" : "salad burger", "price" : 6.50
-                    }
+                {
+                    "id": 1,
+                    "name" : "Gemischter Salat", "price" : 4.80
+                },{
+                    "id": 2,
+                    "name" : "Chicken Salat", "price" : 6.20
+                },{
+                    "id": 3,
+                    "name" : "Gurken Salat", "price" : 3.50
+                },{
+                    "id": 4,
+                    "name" : "Tomaten Salat", "price" : 4.70
+                },{
+                    "id": 5,
+                    "name" : "Thunfisch Salat", "price" : 6.20
+                }
                ] 
             },
             {
                 "mainCourse" :[
                     {
-                        "id": 30,
-                        "name" : "Burger 1", "price" : 6.50
-                    }
+                        "id": 6,
+                        "name" : "Hamburger", "price" : 2.80
+                     },{
+                        "id": 7,
+                        "name" : "Cheeseburger", "price" : 3.20
+                     },{
+                        "id": 8,
+                        "name" : "Angus Burger", "price" : 5.50
+                     },{
+                        "id": 9,
+                        "name" : "Chicken Burger", "price" : 6.30
+                     },{
+                        "id": 10,
+                        "name" : "Chicken Cheeseburger", "price" : 6.70
+                     },{
+                        "id": 11,
+                        "name" : "Halumi Burger", "price" : 7.70
+                     }
                 ]
             },
             {
                 "dessert" : [
                     {
-                        "id": 31,
-                        "name" : "eis  burger 1", "price" : 6.50
+                        "id": 12,
+                        "name" : "Vanille Eis", "price" : 2.50
+                    },{
+                        "id": 13,
+                        "name" : "Tiramisu", "price" : 4.50
+                    },{
+                        "id": 14,
+                        "name" : "Cookie", "price" : 2.00
                     }
                 ]
             },
             {
                 "drinks" : [
                     {
-                        "id": 32,
-                        "name" : "cola burger 1", "price" : 3.50
+                        "id": 15,
+                        "name" : "Wasser", "price" : 2.50
+                    },{
+                        "id": 16,
+                        "name" : "Cola", "price" : 3.50
+                    },{
+                        "id": 17,
+                        "name" : "Fanta", "price" : 3.50
+                    },{
+                        "id": 18,
+                        "name" : "Sprite", "price" : 3.50
+                    },{
+                        "id": 19,
+                        "name" : "Bier", "price" : 4
+                    },{
+                        "id": 20,
+                        "name" : "Weißwein", "price" : 6.50
+                    },{
+                        "id": 21,
+                        "name" : "Rotwein Lieblich", "price" : 5.50
+                    },{
+                        "id": 22,
+                        "name" : "Rotwein Trocken", "price" : 8.50
                     }
                 ]
             }     
@@ -239,7 +289,7 @@
         ]
     },
     {
-        "restaurantName" : "Cake Factory",
+        "restaurantName" : "German Kitchen",
         "restaurantimg" : "./assets/img/restaurant.png",
         "deliveryTime" : "60 - 90",
         "deliveryCosts" : 5,
@@ -247,37 +297,87 @@
         "menuCard" : [
             {
                "starter" : [
-                    {
-                        "id": 33,
-                        "name" : "Salad chicken", "price" : 6.50
-                    },
-                    {
-                        "id": 34,
-                        "name" : "salad burger", "price" : 6.50
-                    }
+                {
+                    "id": 1,
+                    "name" : "Gemischter Salat", "price" : 4.80
+                },{
+                    "id": 2,
+                    "name" : "Chicken Salat", "price" : 5.20
+                },{
+                    "id": 3,
+                    "name" : "Gurken Salat", "price" : 3.80
+                },{
+                    "id": 4,
+                    "name" : "Tomaten Salat", "price" : 4.30
+                },{
+                    "id": 5,
+                    "name" : "Thunfisch Salat", "price" : 5.40
+                }
                ] 
             },
             {
                 "mainCourse" :[
                     {
-                        "id": 35,
-                        "name" : "Burger 1", "price" : 6.50
-                    }
+                        "id": 6,
+                        "name" : "Erbseneintopf", "price" : 3.80
+                     },{
+                        "id": 7,
+                        "name" : "Hühnerfrikassee", "price" : 4.30
+                     },{
+                        "id": 8,
+                        "name" : "Schweine Filet", "price" : 7.50
+                     },{
+                        "id": 9,
+                        "name" : "Zwiebelkuchen", "price" : 5.10
+                     },{
+                        "id": 10,
+                        "name" : "Sauerbraten", "price" : 9.70
+                     },{
+                        "id": 11,
+                        "name" : "Rinderroulade", "price" : 12.70
+                     }
                 ]
             },
             {
                 "dessert" : [
                     {
-                        "id": 36,
-                        "name" : "eis 1", "price" : 6.50
+                        "id": 12,
+                        "name" : "Vanille Eis", "price" : 2.50
+                    },{
+                        "id": 13,
+                        "name" : "Pfannkuchen", "price" : 4.50
+                    },{
+                        "id": 14,
+                        "name" : "Pudding", "price" : 2.00
                     }
                 ]
             },
             {
                 "drinks" : [
                     {
-                        "id": 37,
-                        "name" : "cola 1", "price" : 3.50
+                        "id": 15,
+                        "name" : "Wasser", "price" : 2.50
+                    },{
+                        "id": 16,
+                        "name" : "Cola", "price" : 3.50
+                    },{
+                        "id": 17,
+                        "name" : "Fanta", "price" : 3.50
+                    },{
+                        "id": 18,
+                        "name" : "Sprite", "price" : 3.50
+                    },{
+                        "id": 19,
+                        "name" : "Bier", "price" : 4
+                    },{
+                        "id": 20,
+                        "name" : "Weißwein", "price" : 6.50
+                    },{
+                        "id": 21,
+                        "name" : "Rotwein Lieblich", "price" : 5.50
+                    },{
+                        "id": 22,
+                        "name" : "Rotwein Trocken", "price" : 8.50
                     }
                 ]
             }     
@@ -293,37 +393,87 @@
         "menuCard" : [
             {
                "starter" : [
-                    {
-                        "id": 38,
-                        "name" : "Salad steak", "price" : 6.50
-                    },
-                    {
-                        "id": 39,
-                        "name" : "salad burger", "price" : 6.50
-                    }
+                {
+                    "id": 1,
+                    "name" : "Krautsalat", "price" : 3.20
+                },{
+                    "id": 2,
+                    "name" : "Gemischter Salat", "price" : 4.40
+                },{
+                    "id": 3,
+                    "name" : "Chicken Salat", "price" : 5.20
+                },{
+                    "id": 4,
+                    "name" : "Tomaten Salat", "price" : 4.30
+                },{
+                    "id": 5,
+                    "name" : "Thunfisch Salat", "price" : 5.40
+                }
                ] 
             },
             {
                 "mainCourse" :[
                     {
-                        "id": 40,
-                        "name" : "steak 1", "price" : 6.50
-                    }
+                        "id": 6,
+                        "name" : "Hüftsteak", "price" : 7.80
+                     },{
+                        "id": 7,
+                        "name" : "Steak in Pfeffersauce", "price" : 7.30
+                     },{
+                        "id": 8,
+                        "name" : "Rumpsteak", "price" : 9.50
+                     },{
+                        "id": 9,
+                        "name" : "Rinderfilet", "price" : 13.30
+                     },{
+                        "id": 10,
+                        "name" : "Kalbsteak", "price" : 15.70
+                     },{
+                        "id": 11,
+                        "name" : "Straußensteak", "price" : 12.70
+                     }
                 ]
             },
             {
                 "dessert" : [
                     {
-                        "id": 41,
-                        "name" : "dessert 1 steak", "price" : 6.50
+                        "id": 12,
+                        "name" : "Vanille Eis", "price" : 2.50
+                    },{
+                        "id": 13,
+                        "name" : "Schoko Eis", "price" : 2.50
+                    },{
+                        "id": 14,
+                        "name" : "Pudding", "price" : 2.00
                     }
                 ]
             },
             {
                 "drinks" : [
                     {
-                        "id": 42,
-                        "name" : "cola 1steak", "price" : 3.50
+                        "id": 15,
+                        "name" : "Wasser", "price" : 2.50
+                    },{
+                        "id": 16,
+                        "name" : "Cola", "price" : 3.50
+                    },{
+                        "id": 17,
+                        "name" : "Fanta", "price" : 3.50
+                    },{
+                        "id": 18,
+                        "name" : "Sprite", "price" : 3.50
+                    },{
+                        "id": 19,
+                        "name" : "Bier", "price" : 4
+                    },{
+                        "id": 20,
+                        "name" : "Weißwein", "price" : 6.50
+                    },{
+                        "id": 21,
+                        "name" : "Rotwein Lieblich", "price" : 5.50
+                    },{
+                        "id": 22,
+                        "name" : "Rotwein Trocken", "price" : 8.50
                     }
                 ]
             }     
@@ -339,37 +489,87 @@
         "menuCard" : [
             {
                "starter" : [
-                    {
-                        "id": 43,
-                        "name" : "Salad steak", "price" : 6.50
-                    },
-                    {
-                        "id": 44,
-                        "name" : "salad burger", "price" : 6.50
-                    }
+                {
+                    "id": 1,
+                    "name" : "Gurken Salat", "price" : 3.20
+                },{
+                    "id": 2,
+                    "name" : "Gemischter Salat", "price" : 4.40
+                },{
+                    "id": 3,
+                    "name" : "Chicken Salat", "price" : 5.20
+                },{
+                    "id": 4,
+                    "name" : "Nudel Salat", "price" : 4.30
+                },{
+                    "id": 5,
+                    "name" : "Thunfisch Salat", "price" : 5.40
+                }
                ] 
             },
             {
                 "mainCourse" :[
                     {
-                        "id": 45,
-                        "name" : "steak 1", "price" : 6.50
-                    }
+                        "id": 6,
+                        "name" : "Carbonara", "price" : 5.80
+                     },{
+                        "id": 7,
+                        "name" : "Nudelauflauf", "price" : 6.30
+                     },{
+                        "id": 8,
+                        "name" : "Lasange", "price" : 6.50
+                     },{
+                        "id": 9,
+                        "name" : "Tortelini", "price" : 6.30
+                     },{
+                        "id": 10,
+                        "name" : "Tomate Mozarella überbacken", "price" : 7.70
+                     },{
+                        "id": 11,
+                        "name" : "Bolognese", "price" : 6.70
+                     }
                 ]
             },
             {
                 "dessert" : [
                     {
-                        "id": 46,
-                        "name" : "dessert 1 steak", "price" : 6.50
+                        "id": 12,
+                        "name" : "Vanille Eis", "price" : 2.50
+                    },{
+                        "id": 13,
+                        "name" : "Schoko Eis", "price" : 2.50
+                    },{
+                        "id": 14,
+                        "name" : "Pudding", "price" : 2.00
                     }
                 ]
             },
             {
                 "drinks" : [
                     {
-                        "id": 47,
-                        "name" : "cola 1steak", "price" : 3.50
+                        "id": 15,
+                        "name" : "Wasser", "price" : 2.50
+                    },{
+                        "id": 16,
+                        "name" : "Cola", "price" : 3.50
+                    },{
+                        "id": 17,
+                        "name" : "Fanta", "price" : 3.50
+                    },{
+                        "id": 18,
+                        "name" : "Sprite", "price" : 3.50
+                    },{
+                        "id": 19,
+                        "name" : "Bier", "price" : 4
+                    },{
+                        "id": 20,
+                        "name" : "Weißwein", "price" : 6.50
+                    },{
+                        "id": 21,
+                        "name" : "Rotwein Lieblich", "price" : 5.50
+                    },{
+                        "id": 22,
+                        "name" : "Rotwein Trocken", "price" : 8.50
                     }
                 ]
             }     
