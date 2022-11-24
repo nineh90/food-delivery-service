@@ -1,31 +1,29 @@
-<div>
-    <img title="Warenkorb Öffnen" id="arrow" onclick="openShoppingBasket()" class="menu-arrow pointer" src="./assets/img/takeaway.png" alt="">
-</div>
 <div id="shoppingBasket" class="shopping-basket-container column-reverse d-flex justify-end align-center ">
-    <button disabled id="payButton" class="pointer d-none">BEZAHLEN</button>
+    <button onclick="payForPurchase()" id="payButton" class="pointer d-none">BEZAHLEN</button>
     <div id="minOrderContainer" class="d-flex justify-center">
-        <p class="w-30">
-            Noch <span id="minOrderPrice">??</span> € um den Mindestbestellwert zu erreichen
+        <p id="min-order-value" class="w-50 txt-center d-none">
+            Noch <span id="minOrderPrice"></span> € um den Mindestbestellwert zu erreichen
         </p>
+        <p id="no-min-order-value" class="w-50 txt-center">Um den Mindestbestellwert zu sehen wähle bitte zuerst ein Restaurant aus.</p>
     </div>    
     <div id="payMent" class="d-none">
         <div class="d-flex justify-between">
             <span>
                 Zwischensumme:
             </span>
-            <span id="subtotal">????</span>
+            <span id="subtotal">0,00 €</span>
         </div>
         <div class="d-flex justify-between">
             <span>
                 Lieferkosten:
             </span>
-            <span id="costsOfDelivery">????</span>
+            <span id="costsOfDelivery">0,00 €</span>
         </div>
         <div class="d-flex justify-between totalsum-container">
             <span>
                 Gesamt:
             </span>
-            <span id="basketSum">????</span>
+            <span id="basketSum">0,00 €</span>
         </div>
     </div>
     <div id="basketContent" class="d-none d-flex column"></div>
@@ -33,13 +31,16 @@
         <h3>Warenkorb</h3>
         <img class="basket-img" src="./assets/img/trolley.png" alt="">
         <div class="d-flex justify-center">
-            <p class="w-30"> 
+            <p class="w-50"> 
                 <strong>
                     Wähle ein Restaurant und
                     Fülle Deinen Warenkorb
-                </strong>    
+                </strong>  
             </p>
         </div>    
+    </div>
+    <div>
+        <img title="Warenkorb schließen" onclick="closeShoppingBasket()" class="basket-cross" src="./assets/img/cross.png">
     </div>  
 </div>
 

@@ -5,5 +5,370 @@
     .header p{
         font-size: 1.5rem;
     }
+    .restaurant-image-container img {
+        width: 20px;
+    }
    
+}
+
+@media(max-width : 768px){
+    h1{
+        font-size: 1.5rem;  
+    }
+    .header h1 {
+        font-size: 2.5rem;
+    }
+    .header p{
+        font-size: 1.2rem;
+    }
+    .location-search-container a{
+        font-size: 1rem;
+    }
+    .location-search-container input {
+        width: 300px;
+    }   
+    .index-content-container h2 {
+        font-size: 1.5rem;
+    } 
+    .location-content-img {
+        width: 35px;
+    }
+    .location-header-img {
+        width: 16px;
+    }
+    .take-away-img {
+        width: 45px;
+    }
+    .index-content-container p {
+        font-size: 1rem;
+    }
+    .logo-img {
+        width: 45px;
+    }
+    .navbar span {
+        font-size: 0.9rem;
+    }
+    .dark-mode-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .restaurant-card h2 {
+        font-size: 1.5rem;
+    }
+    .basket-img {
+        width: 55px;
+    }
+    .shopping-basket-container {
+        width: 65%;
+    }
+    .menu-arrow {
+        width: 20px;
+    }
+    .navbar-menu-card a {
+        font-size: 0.75rem;
+    }
+    .navbar-menu-card a {
+        padding: 6px
+    }
+    .restaurant-card h1 {
+        font-size: 2rem;
+    }
+    .restaurant-info {
+        font-size: 0.8rem;
+    }
+    .restaurant-card-img {
+        height: 8rem;
+    }
+    .basket-img-bottom {
+        width: 35px;
+    }
+    .menu-bottom-container {    
+        height: 50px;
+    }
+    .basketCart{
+        padding: 12px;
+        font-size: 0.8rem;
+    }
+    .basket-minus{
+        width: 8px;
+    }
+    .basket-plus{
+        width: 8px;
+    }
+
+    #payMent{
+        font-size: 0.9rem;
+    }
+    #minOrderContainer{
+        font-size: 0.9rem;
+    }
+
+    .current-rest-img {
+        height: 5.5rem;
+    }
+    .restaurant-card h3 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width : 425px){
+    h1{
+        font-size: 1.2rem;  
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .header h1 {
+        font-size: 2rem;
+    }
+    .location-search-container input {
+        width: 260px;
+    }
+    .header {
+        margin-top: 45px;
+        max-height: calc(100vh - 45px);
+    }
+    .header p {
+        font-size: 1rem;
+    }
+    .location-search-container input {
+        font-size: 1rem;
+    }
+    .location-search-container input {
+        width: 220px;
+    }
+    .location-img {
+        width: 15px;
+    }
+    .location-search-container input {
+        font-size: 0.8rem;
+    }
+    .location-search-container a {
+        font-size: 0.9rem;
+    }
+    .header p {
+        font-size: 0.9rem;
+    }
+    .location-search-container {
+        padding: 4px;
+        
+    }
+    .location-search-container a {
+        padding: 4px;
+    }
+    .index-content-container h2 {
+        font-size: 1.3rem;
+    }
+    .index-content-container p {
+        font-size: 1rem;
+    }
+    .location-content-img {
+        width: 25px;
+    }   
+    .take-away-img {
+        width: 35px;
+    }
+    .logo-img {
+        width: 35px;
+    }
+    .location-header-img {
+        width: 16px;
+        margin-right: 12px;
+    }
+    .restaurant-card-img {
+        height: 4.5rem;
+    }
+    .restaurant-card h2 {
+        font-size: 1.35rem;
+    }
+    .restaurant-image-container img {
+        width: 14px;
+    }
+    .restaurant-info {
+        font-size: 0.7rem;
+        text-shadow: 1px 1px 0px black;
+    }
+    .restaurant-card h1 {
+        font-size: 1.25rem;
+    }
+    .restaurant-card h3 {
+        font-size: 1.75rem;
+    }
+    .menu-item-container{
+        font-size: 14px;
+    }
+    .menu-item-container {
+        margin-left: 8px;
+        margin-bottom: 8px;
+        margin-right: 8px;
+        padding-bottom: 16px;
+    }
+    .shopping-basket-container {
+        width: 75%;
+    }
+    .navbar{
+        height: 45px;
+    }
+    .navbar-menu-card {
+        top: 45px;
+        padding: 10px;
+    }
+    .navbar-menu-card a {
+        padding: 4px;
+    }
+    .navbar-menu-card a {
+        font-size: 0.6rem;
+    }
+    .margin-top-10 {
+        margin-top: 105px;
+    }
+    .navbar span {
+        font-size: 0.8rem;
+    }
+    .dark-mode-icon {
+        width: 18px;
+        height: 18px;
+    }
+    #basketContent {
+        padding: 12px;
+    }
+
+}
+
+@media(max-width: 375px){
+    h1{
+        font-size: 1rem;  
+    }
+    .location-search-container input {
+        width: 200px;
+    }
+
+    .shopping-basket-container {
+        width: 98%;
+    }
+
+    .navbar span {
+        font-size: 0.65rem;
+    }
+
+    .location-header-img {
+        width: 14px;
+    }
+
+    .dark-mode-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .index-content-container p {
+        font-size: 0.88rem;
+    }
+
+    .index-content-container h2 {
+        font-size: 1.1rem;
+    }
+
+    .footer img {
+        width: 50px;
+    }
+
+    .restaurant-card h2 {
+        font-size: 1.1rem;
+    }
+
+    .restaurant-image-container img {
+        width: 12px;
+    }
+
+    .restaurant-info {
+        font-size: 0.65rem;
+    }
+
+    .basket-img-bottom {
+        width: 25px;
+    }
+
+    .menu-bottom-container {
+        height: 40px;
+    }
+
+    .basket-cross{
+        display: flex;
+    }
+
+    #payMent {
+        font-size: 0.75rem;
+        padding: 14px;   
+    }
+
+    #minOrderContainer {
+        font-size: 0.8rem;
+    }
+    .restaurant-card {
+        box-shadow: none;
+    }
+        
+}
+
+@media (max-width: 320px){
+    .header h1 {
+        font-size: 1.7rem;
+    }
+    .header p {
+        font-size: 0.75rem;
+        margin-bottom: 30px;
+    }
+    .location-search-container {
+        padding: 3px;
+    }
+    .location-search-container input {
+        width: 175px;
+    }
+    .location-img {
+        width: 13px;
+    }
+    .location-search-container input {
+        font-size: 0.72rem;
+    }
+    .restaurant-card h1 {
+        font-size: 1.1rem;
+    }
+    .menu-item-container {
+        font-size: 12px;
+    }
+    .add-to-basket-img {
+        width: 18px;
+    }
+    .basketCart {
+        padding: 8px;
+        font-size: 0.7rem;
+    }
+    .current-rest-img {
+        height: 3.5rem;
+    }
+    
+}
+
+@media(max-width: 280px){
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .header p {
+        font-size: 0.65rem;
+    }
+    .restaurant-card h2 {
+        font-size: 1rem;
+    }    
+    .restaurant-info {
+        padding: 2px;
+    }
+    .restaurant-card h1 {
+        font-size: 1rem;
+    }
+    .navbar-menu-card a {
+        font-size: 0.5rem;
+    }
+    .hide{
+        display: none;
+    }
 }

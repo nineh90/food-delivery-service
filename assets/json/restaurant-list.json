@@ -9,37 +9,86 @@
             {
                "starter" : [
                 {
-                    "name" : "PIZZA Salad", "price" : 6.50
-                },
-                {
-                    "name" : "PIZZA 2 Salad", "price" : 4.50
-                },
-                {
-                    "name" : "PIZZA 3 Salad", "price" : 6.50
+                    "id": 1,
+                    "name" : "Gemischter Salat", "price" : 5.50
+                },{
+                    "id": 2,
+                    "name" : "Chicken Salat", "price" : 7.00
+                },{
+                    "id": 3,
+                    "name" : "Gurken Salat", "price" : 4.50
+                },{
+                    "id": 4,
+                    "name" : "Tomaten Salat", "price" : 5.50
+                },{
+                    "id": 5,
+                    "name" : "Thunfisch Salat", "price" : 6.90
                 }
                ] 
             },
             {
                 "mainCourse" :[
                  {
-                    "name" : "Pizza 1", "price" : 26.50
-                 },
-                 {
-                    "name" : "Pizza 2", "price" : 16.50
+                    "id": 6,
+                    "name" : "Pizza Mageritha", "price" : 4
+                 },{
+                    "id": 7,
+                    "name" : "Pizza Salami", "price" : 6.50
+                 },{
+                    "id": 8,
+                    "name" : "Pizza Schinken", "price" : 7
+                 },{
+                    "id": 9,
+                    "name" : "Pizza Thunfisch", "price" : 7.00
+                 },{
+                    "id": 10,
+                    "name" : "Pizza Mozzarella", "price" : 6.00
+                 },{
+                    "id": 11,
+                    "name" : "Pizza Calzone", "price" : 8
                  }
                 ]
             },
             {
                 "dessert" : [
                     {
-                        "name" : "Pizza dessert 1", "price" : 6.50
+                        "id": 12,
+                        "name" : "Langos Nutella", "price" : 4.50
+                    },{
+                        "id": 13,
+                        "name" : "Tiramisu", "price" : 5.50
+                    },{
+                        "id": 14,
+                        "name" : "Käsekuchen", "price" : 3.50
                     }
                 ]
             },
             {
                 "drinks" : [
                     {
-                        "name" : "Pizza drink 1", "price" : 3.50
+                        "id": 15,
+                        "name" : "Wasser", "price" : 2.50
+                    },{
+                        "id": 16,
+                        "name" : "Cola", "price" : 3.50
+                    },{
+                        "id": 17,
+                        "name" : "Fanta", "price" : 3.50
+                    },{
+                        "id": 18,
+                        "name" : "Sprite", "price" : 3.50
+                    },{
+                        "id": 19,
+                        "name" : "Bier", "price" : 4
+                    },{
+                        "id": 20,
+                        "name" : "Weißwein", "price" : 6.50
+                    },{
+                        "id": 21,
+                        "name" : "Rotwein Lieblich", "price" : 5.50
+                    },{
+                        "id": 22,
+                        "name" : "Rotwein Trocken", "price" : 8.50
                     }
                 ]
             }     
@@ -55,31 +104,88 @@
             {
                "starter" : [
                     {
-                        "name" : "sushi Salad", "price" : 6.50
+                        "id": 1,
+                        "name" : "Gyoza", "price" : 5.40
                     },
                     {
-                        "name" : "sushi Salad 2", "price" : 6.50
+                        "id": 2,
+                        "name" : "Onigri Hähnchen", "price" : 6.30
+                    },
+                    {
+                        "id": 3,
+                        "name" : "Onigri Lachs", "price" : 6.50
+                    },
+                    {
+                        "id": 4,
+                        "name" : "Japanische Gemüsesuppe", "price" : 4.20
+                    },
+                    {
+                        "id": 5,
+                        "name" : "Tamagoyaki", "price" : 5.00
                     }
                ] 
             },
             {
                 "mainCourse" :[
                     {
-                        "name" : "sushi haupt 1", "price" : 6.50
+                        "id": 6,
+                        "name" : "Miso Ramen", "price" : 6.50
+                    },
+                    {
+                        "id": 7,
+                        "name" : "Katsudon", "price" : 7.30
+                    },
+                    {
+                        "id": 8,
+                        "name" : "Sushi", "price" : 7.80
+                    },
+                    {
+                        "id": 9,
+                        "name" : "Chicken Teriyaki", "price" : 7.90
+                    },
+                    {
+                        "id": 10,
+                        "name" : "Tsukune", "price" : 7.00
                     }
                 ]
             },
             {
                 "dessert" : [
                     {
-                        "name" : "nachtisch sushi 1", "price" : 6.50
+                        "id": 11,
+                        "name" : "Gyoza", "price" : 4.30
+                    },{
+                        "id": 12,
+                        "name" : "mochi", "price" : 4.30
                     }
                 ]
             },
             {
                 "drinks" : [
                     {
-                        "name" : "getränk sushi 1", "price" : 3.50
+                        "id": 13,
+                        "name" : "Wasser", "price" : 2.50
+                    },{
+                        "id": 14,
+                        "name" : "Cola", "price" : 3.50
+                    },{
+                        "id": 15,
+                        "name" : "Fanta", "price" : 3.50
+                    },{
+                        "id": 16,
+                        "name" : "Sprite", "price" : 3.50
+                    },{
+                        "id": 17,
+                        "name" : "Bier", "price" : 4
+                    },{
+                        "id": 18,
+                        "name" : "Weißwein", "price" : 6.50
+                    },{
+                        "id": 19,
+                        "name" : "Rotwein Lieblich", "price" : 5.50
+                    },{
+                        "id": 20,
+                        "name" : "Rotwein Trocken", "price" : 8.50
                     }
                 ]
             }     
@@ -96,9 +202,11 @@
             {
                "starter" : [
                     {
+                        "id": 28,
                         "name" : "burger chicken", "price" : 6.50
                     },
                     {
+                        "id": 29,
                         "name" : "salad burger", "price" : 6.50
                     }
                ] 
@@ -106,6 +214,7 @@
             {
                 "mainCourse" :[
                     {
+                        "id": 30,
                         "name" : "Burger 1", "price" : 6.50
                     }
                 ]
@@ -113,6 +222,7 @@
             {
                 "dessert" : [
                     {
+                        "id": 31,
                         "name" : "eis  burger 1", "price" : 6.50
                     }
                 ]
@@ -120,6 +230,7 @@
             {
                 "drinks" : [
                     {
+                        "id": 32,
                         "name" : "cola burger 1", "price" : 3.50
                     }
                 ]
@@ -137,9 +248,11 @@
             {
                "starter" : [
                     {
+                        "id": 33,
                         "name" : "Salad chicken", "price" : 6.50
                     },
                     {
+                        "id": 34,
                         "name" : "salad burger", "price" : 6.50
                     }
                ] 
@@ -147,6 +260,7 @@
             {
                 "mainCourse" :[
                     {
+                        "id": 35,
                         "name" : "Burger 1", "price" : 6.50
                     }
                 ]
@@ -154,6 +268,7 @@
             {
                 "dessert" : [
                     {
+                        "id": 36,
                         "name" : "eis 1", "price" : 6.50
                     }
                 ]
@@ -161,6 +276,7 @@
             {
                 "drinks" : [
                     {
+                        "id": 37,
                         "name" : "cola 1", "price" : 3.50
                     }
                 ]
@@ -178,9 +294,11 @@
             {
                "starter" : [
                     {
+                        "id": 38,
                         "name" : "Salad steak", "price" : 6.50
                     },
                     {
+                        "id": 39,
                         "name" : "salad burger", "price" : 6.50
                     }
                ] 
@@ -188,6 +306,7 @@
             {
                 "mainCourse" :[
                     {
+                        "id": 40,
                         "name" : "steak 1", "price" : 6.50
                     }
                 ]
@@ -195,6 +314,7 @@
             {
                 "dessert" : [
                     {
+                        "id": 41,
                         "name" : "dessert 1 steak", "price" : 6.50
                     }
                 ]
@@ -202,6 +322,7 @@
             {
                 "drinks" : [
                     {
+                        "id": 42,
                         "name" : "cola 1steak", "price" : 3.50
                     }
                 ]
@@ -219,9 +340,11 @@
             {
                "starter" : [
                     {
+                        "id": 43,
                         "name" : "Salad steak", "price" : 6.50
                     },
                     {
+                        "id": 44,
                         "name" : "salad burger", "price" : 6.50
                     }
                ] 
@@ -229,6 +352,7 @@
             {
                 "mainCourse" :[
                     {
+                        "id": 45,
                         "name" : "steak 1", "price" : 6.50
                     }
                 ]
@@ -236,6 +360,7 @@
             {
                 "dessert" : [
                     {
+                        "id": 46,
                         "name" : "dessert 1 steak", "price" : 6.50
                     }
                 ]
@@ -243,6 +368,7 @@
             {
                 "drinks" : [
                     {
+                        "id": 47,
                         "name" : "cola 1steak", "price" : 3.50
                     }
                 ]
